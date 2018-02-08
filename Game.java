@@ -22,6 +22,8 @@ public class Game {
     }
     // 轉為小寫
     letter = Character.toLowerCase(letter);
+    // Swift 的轉小寫
+    // letter = letter.lowercased()
     
     // 檢查是否已經猜過
     if (hits.indexOf(letter) >= 0 || misses.indexOf(letter) >= 0) {

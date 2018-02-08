@@ -12,6 +12,9 @@ public class Example {
     // type 命名 = new className();
     // PezDispenser dispenser = new PezDispenser();
     PezDispenser dispenser = new PezDispenser("Yoda");
+      
+    // Swift 的初始化
+    // var dispenser = PezDispenser("Yoda")
     
     // characterName 沒有寫 private 時可以被取用及改變
     // dispenser.characterName = "Darth Vader";
